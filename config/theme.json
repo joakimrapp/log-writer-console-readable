@@ -1,0 +1,18 @@
+{
+	"message": {
+		"0": { "title": "fatal", "text": "black", "background": "red" },
+		"1": { "title": "error", "text": "bright.red" },
+		"2": { "title": "warning", "text": "bright.yellow" },
+		"3": { "title": "info", "text": "green" },
+		"4": { "title": "debug", "text": "bright.black" },
+		"5": { "title": "trace", "effect": "faint" },
+		"-1": { "title": "notify", "text": "bright.green", "effect": "blink" },
+		"-2": { "title": "alert", "text": "bright.yellow", "effect": "blink" },
+		"-3": { "title": "alarm", "text": "bright.red", "effect": "blink" },
+		"10": { "title": "metric", "text": "cyan", "effect": "faint" }
+	},
+	"time": { "text": "yellow", "effect": "faint" },
+	"name": { "text": "blue", "effect": "faint" },
+	"milliseconds": { "text": "magenta", "effect": "faint" },
+	"meta": {}
+}
