@@ -1,4 +1,4 @@
-require( '../../../helpers/unit.js' )( ( display ) => {} )
+require( '@jrapp/node-project-setup' ).testing.file( './test/file' )( ( display ) => {} )
 	.it( 'should start off as relative', ( assert, display ) =>
 		assert.equal( display.time().charAt( 0 ), 'R' ) )
 	.it( 'should switch to absolute', ( assert, display ) => {
@@ -9,4 +9,4 @@ require( '../../../helpers/unit.js' )( ( display ) => {} )
 		display.relative();
 		assert.equal( display.time().charAt( 0 ), 'R' );
 	} )
-.done();
+	.done();
